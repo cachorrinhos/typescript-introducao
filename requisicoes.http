@@ -1,0 +1,34 @@
+### 1. LISTAR TODOS OS PRODUTOS (GET)
+GET http://localhost:3000/produtos
+
+###
+
+### 2. CRIAR UM NOVO PRODUTO (POST)
+POST http://localhost:3000/produtos
+Content-Type: application/json
+
+{
+  "nome": "fone de ouvidoooo",
+  "preco": 2502
+}
+
+###
+
+### 3. BUSCAR PRODUTO POR ID (GET)
+GET http://localhost:3000/produtos/1
+
+###
+
+### 4. ATUALIZAR UM PRODUTO (PUT)
+PUT http://localhost:3000/produtos/1
+Content-Type: application/json
+
+{
+  "nome": "testeeeeee",
+  "preco": 5000
+}
+
+###
+
+### 5. DELETAR UM PRODUTO (DELETE)
+DELETE http://localhost:3000/produtos/1
